@@ -112,7 +112,11 @@ test/
 
 4. **Undo "git add":** If `main.py` has been added to the staging area (`git add main.py`), remove it from the staging area:
    ```
-   git reset main.py
+   git reset HEAD main.py
+   ```
+   or
+   ```
+   git restore --staged main.py
    ```
 
 5. **Recover a file:** Command to replace your working copy of `a.py` with the most recent (HEAD) version in the repository.  This also works if you have deleted your working copy of this file.
