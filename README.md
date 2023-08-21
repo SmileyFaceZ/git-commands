@@ -96,23 +96,29 @@ test/
 
 
 1.  Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
-``` 
-git diff a.py HEAD
-```
+   ``` 
+   git diff a.py HEAD
+   ```
 
 2. Display the differences between your *working copy* of `a.py` and the version in the *staging area*. (But, if a.py is not in the staging area this will compare working copy to HEAD revision):
-```
-git diff -- a.py
-```
+   ```
+   git diff a.py
+   ```
 
 3. **View changes to be committed:** Display the differences between files in the staging area and the versions in the repository. (You can also specify a file name to compare just one file.) 
+   ```
+   git diff --staged
+   ```
 
 4. **Undo "git add":** If `main.py` has been added to the staging area (`git add main.py`), remove it from the staging area:
-```
-git reset main.py
-```
+   ```
+   git reset main.py
+   ```
 
 5. **Recover a file:** Command to replace your working copy of `a.py` with the most recent (HEAD) version in the repository.  This also works if you have deleted your working copy of this file.
+   ```
+   git checkout HEAD a.py
+   ```
 
 6. **Undo a commit:** Suppose you want to discard some commit(s) and move both HEAD and "master" to an earlier revision (an earlier commit)  Suppose the git commit graph looks like this (`aaaa`, etc, are the commit ids)
    
@@ -183,9 +189,9 @@ git branch -v
 
 ## Favorites
 
-> "Task Viewing Commits problem 3." In my exploration of Git, I've discovered 'git ls-tree' command. It allows me to easily see what each commit contains in terms of files and directories.
+> **[Task Viewing Adding and Changing Things problem (7)](#adding-and-changing-things)** : A helpful tool for efficiently organizing files within a Git repository
 
-
+> **[Task Viewing Commits problem (3)](#viewing-commits)** : In my exploration of Git, I've discovered 'git ls-tree' command. It allows me to easily see what each commit contains in terms of files and directories.
 ---
 ## Resources
 
@@ -194,6 +200,10 @@ git branch -v
 > https://www.youtube.com/watch?v=gqCzYy7mA3E&list=LL&index=6&t=1093s
 
 > https://www.thegeekdiary.com/git-ls-tree-command-examples/
+
+> https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo#
+
+> https://linuxhint.com/change-git-remote-origin-url/#:~:text=Git%20users%20can%20change%20the,origin%20using%20the%20SSH%20URL.
 
 
 * [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable e-book is available, too. 
