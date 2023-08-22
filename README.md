@@ -178,7 +178,7 @@ git branch -u origin/main <branch>
 
 2. Moving a branch reference to a specific commit ID.
 ```
-git branch -f main <commit-id>
+git branch -f <branch> <commit-id>
 ```
 
 3. Merge branches with no fast forward.
