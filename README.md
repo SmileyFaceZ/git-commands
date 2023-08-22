@@ -199,15 +199,11 @@ git branch -v
 ---
 ## Resources
 
-> https://medium.com/@pakin/git-คืออะไร-git-is-your-friend-c609c5f8efea
-
-> https://www.youtube.com/watch?v=gqCzYy7mA3E&list=LL&index=6&t=1093s
-
-> https://www.thegeekdiary.com/git-ls-tree-command-examples/
-
-> https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo#
-
-> https://linuxhint.com/change-git-remote-origin-url/#:~:text=Git%20users%20can%20change%20the,origin%20using%20the%20SSH%20URL.
+* [Basic Git](https://medium.com/@pakin/git-คืออะไร-git-is-your-friend-c609c5f8efea) Basic Git Command in Thai language.
+* [Basic Video Git](https://www.youtube.com/watch?v=gqCzYy7mA3E&list=LL&index=6&t=1093s) Video the basic Git Command in Thai language.
+* [git ls-tree Command](https://www.thegeekdiary.com/git-ls-tree-command-examples/) git ls-tree Command Example. Allows you to list the contents of a tree object.
+* [Git Remote](https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo#) Add a new remote, use the git remote add command on the terminal.
+* [Git Remote Origin(URL)](https://linuxhint.com/change-git-remote-origin-url/#:~:text=Git%20users%20can%20change%20the,origin%20using%20the%20SSH%20URL.) Change Git Remote Origin Using SSH URL.
 
 
 * [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable e-book is available, too. 
